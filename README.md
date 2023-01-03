@@ -22,8 +22,15 @@ pull API keys from in development.
 
 This project uses various APIs that require some external setup.
 
-Go to the Google Cloud console and set up a new project.
+To set up Google Cloud:
 
+- Go to the [Google Cloud console](https://console.cloud.google.com/) and set up a new project.
 - Enable the Google Maps Platform API by following the instructions [here](https://developers.google.com/maps/get-started)
-    - Note that you may need to enable a billing account for this
-    - Save the API key to `creds.json` in the repo
+    - Note that you may need to enable a billing account for this.
+- Save the Google Maps API key to `creds.json` in the repo.
+
+To set up Yelp:
+
+- Go to the Yelp [Create New App](https://www.yelp.com/developers/v3/manage_app) portal and set up 
+  a new app.
+- Save the API key to `creds.json` in the repo.
