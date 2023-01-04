@@ -28,6 +28,9 @@ To set up Google Cloud:
 - Enable the Google Maps Platform API by following the instructions [here](https://developers.google.com/maps/get-started)
     - Note that you may need to enable a billing account for this.
 - Save the Google Maps API key to `creds.json` in the repo.
+- If running this on Google Cloud, enable the APIs needed for that [here](https://console.cloud.google.com/flows/enableapi?apiid=cloudfunctions,cloudbuild.googleapis.com,artifactregistry.googleapis.com,run.googleapis.com,logging.googleapis.com&redirect=https://cloud.google.com/functions/quickstart)
+    - Install the [Google Cloud CLI](https://cloud.google.com/sdk/docs/install#installation_instructions).
+    - [Initialize](https://cloud.google.com/sdk/docs/initializing) the CLI (run `gcloud init` and everything else should work).
 
 To set up Yelp:
 
